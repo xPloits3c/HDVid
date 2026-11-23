@@ -1,3 +1,5 @@
+<img width="1696" height="1096" alt="image" src="https://github.com/user-attachments/assets/b8501686-cfa6-4657-8ae5-821690798103" />
+
 # HDVid
 
 **Upscale videos to HD, Full HD, 2K or 4K from the command line, with optional AI super-resolution.**
