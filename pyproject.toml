@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hdvid"
+version = "2.1.0"
+description = "Upscale videos to HD/4K with FFmpeg and Real-ESRGAN (any Vulkan GPU)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Tuinea Doru Alin" }]
+requires-python = ">=3.9"
+dependencies = ["pillow>=9.0"]
+keywords = ["video", "upscale", "upscaling", "ffmpeg", "real-esrgan", "super-resolution", "4k"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video :: Conversion",
+    "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/xPloits3c/HDVid"
+Issues = "https://github.com/xPloits3c/HDVid/issues"
+
+[project.scripts]
+hdvid = "hdvid:main"
+
+[tool.setuptools]
+py-modules = ["hdvid"]

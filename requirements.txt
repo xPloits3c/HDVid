@@ -1,0 +1,6 @@
+# Python dependencies (only needed for --mode ai)
+pillow>=9.0
+
+# System requirements (NOT installable with pip), see README.md:
+#   - FFmpeg + FFprobe in PATH   (do NOT "pip install ffmpeg")
+#   - for --mode ai: a Vulkan-capable GPU with up-to-date drivers
